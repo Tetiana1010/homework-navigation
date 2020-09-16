@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 @font-face {
     font-family: 'Aktiv Grotesk';
     src: url("fonts/AktivGr/AktivGroteskCorp-Regular.woff2") format('woff2'),
@@ -24,8 +23,8 @@
 }
 .parent { 
     display: grid; 
-    grid-template-columns: repeat(6, calc(90vw/6)); 
-    grid-template-rows: repeat(8, calc(90vw/14)); 
+    grid-template-columns: repeat(6, calc(92vw/6)); 
+    grid-template-rows: repeat(8, calc(100vw/14)); 
     grid-column-gap: 0px;
     grid-row-gap: 0px; 
     border-left: 2px solid rgba(142, 142, 145, 1);
@@ -89,6 +88,7 @@ h1 {
 body {
     color: #000000;
     font-family: Helvetica;
+    font-size: 17px;
     font-style: normal; 
     width: 100vh;
     height: 100vh;
@@ -99,7 +99,6 @@ h1 {
     font-family:'Aktiv Grotesk'; 
     position: relative;
     font-size: 100px;
-    font-stretch: 100%;
     letter-spacing: 0.06em;
     padding: 0;
     margin: 0;
@@ -116,23 +115,20 @@ h2 {
 
 p {
     position: relative;
+    color: rgba(105, 105, 105, 1);
     font-size: 17px;
     letter-spacing: 0.04em;
-    max-width: 400px;
+    max-width: 263px;
     text-align: left;
-    padding: 15px;
+    align-items: flex-end;
+    padding: 15px ;
     margin: auto;
 }
 
-header { 
-    font-size: 20px;
-    
-
+b {
+    color: #000000;
 }
-footer { 
-    font-size: 20px;
-    top: 50% ;
- }   
+
 
 .main {
     position: absolute;
@@ -144,10 +140,17 @@ footer {
     left: 1300px;
     
 }
+figure {
+    width: 96%; 
+    font-size: 11px;
+    text-decoration-line: underline;
+    margin-top: 0;
+}
 
 img {
     width: 90%;
-    margin-top: 450px;
+    display: block;
+    margin: 500px auto auto auto;
 }
 
 .next {
