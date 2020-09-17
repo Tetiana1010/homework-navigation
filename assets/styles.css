@@ -30,13 +30,13 @@ body {
     font-family: Helvetica;
     font-style: normal; 
     padding: 0;
-    margin: 20px;
+    margin: 20px 0;
 }
 
 .parent { 
     display: grid; 
     grid-template-columns: repeat(6, calc(100vw/6)); 
-    grid-template-rows: repeat(8, calc(100vw/15)); 
+    grid-template-rows: repeat(8, calc(100vw/14)); 
     grid-column-gap: 0px;
     grid-row-gap: 0px; 
     border-left: 2px solid rgba(142, 142, 145, 1);
@@ -118,24 +118,23 @@ p {
     margin: auto;
 }
 
-b {
+h3 {
+    text-align: left;
+    padding: 15px;
     color: #000000;
 }
 
-.main {
-    position: absolute;
+b {
+    color: rgba(64, 64, 64, 1);
 }
 
-.next {
-    position: absolute;   
+img {
+    width: 90%;
+    margin-top: 500px;
 }
 
 footer {
     align-items: flex-end;
-}
-
-img {
-    margin-top: 500px;
 }
 
 /* unvisited link */
@@ -145,11 +144,11 @@ a:link {
 }
 /* visited link */
 a:visited {
-    color: #141313;
+    color: #000000;
     text-decoration: none;
 }
 /* mouse over link */
 a:hover {
-    color: #141313;
+    color: rgba(64, 64, 64, 1);
     text-decoration: underline;            
 }
