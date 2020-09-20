@@ -9,18 +9,18 @@ html {
 
 @font-face {
     font-family: 'Aktiv Grotesk';
-    src: url("assets/fonts/AktivGr/AktivGroteskCorp-Regular.woff2") format('woff2'),
-        url("assets/fonts/AktivGr/AktivGroteskCorp-Regular.woff") format('woff'),
-        url("assets/fonts/AktivGr/AktivGroteskCorp-Regular.ttf") format('truetype');
+    src: url("fonts/AktivGr/AktivGroteskCorp-Regular.woff2") format('woff2'),
+        url("fonts/AktivGr/AktivGroteskCorp-Regular.woff") format('woff'),
+        url("fonts/AktivGr/AktivGroteskCorp-Regular.ttf") format('truetype');
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'Apercu Mono Pro';
-    src: url("assets/fonts/Apercu/ApercuMonoPro-Regular.woff2") format('woff2'),
-        url("assets/fonts/Apercu/ApercuMonoPro-Regular.woff") format('woff'),
-        url("assets/fonts/Apercu/ApercuMonoPro-Regular.ttf") format('truetype');
+    src: url("fonts/Apercu/ApercuMonoPro-Regular.woff2") format('woff2'),
+        url("fonts/Apercu/ApercuMonoPro-Regular.woff") format('woff'),
+        url("fonts/Apercu/ApercuMonoPro-Regular.ttf") format('truetype');
     font-style: normal;
     font-weight: normal;
 }
